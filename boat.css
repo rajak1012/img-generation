@@ -1,0 +1,71 @@
+header{
+    background-image: url(./../../IMG/boat-2.jpg);
+    background-size: contain;
+    padding-bottom: 300px;
+    color: white;
+    
+}
+header p{
+    width:50%;
+}
+.grid-02{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+.flex{
+    display: flex;
+    justify-content:space-evenly;
+    color: white;
+}
+.spacing{
+    padding-left: 22%;
+    margin-top: 9%;
+}
+.font{
+    font-size: larger;
+}
+button{
+    border-radius: 10px;
+}
+.font02{
+    font-size: larger;
+    padding-left:250px;
+     text-shadow: black 5px 5px 4px;
+     
+}
+.grid-03{
+     
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+     justify-content:space-around;
+      
+}
+.section01{
+    background-color: #9999ff;
+    padding-bottom: 20px;
+    
+}
+.section01-align{
+    padding-left: 15%;
+    padding-top: 5%;
+}
+.section-02-align{
+     text-align: center;
+}
+.border{
+    border: 1px solid lightslategray;
+    border-radius: 10px;  
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+    padding-right:25px ;
+    margin-bottom: 10px;   
+     
+}
+footer{
+    background-color: darkslategray;
+    color:whitesmoke;
+    padding: 10px;
+}
+ 

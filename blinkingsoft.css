@@ -1,0 +1,183 @@
+*{
+    margin:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, button, .mt-20{
+    margin-top: 15px;
+}
+p{
+    font-size: 14px;
+}
+header{
+    background-color: lightgray;
+}
+section{
+    padding: 20px 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+nav{
+    margin: 20px;
+}
+nav ul{
+    margin: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap: 3rem;
+}
+nav ul a {
+    font-size: 14px;
+}
+.flex{
+    display: flex;
+}
+.flex-around{
+    justify-content: space-around;
+}
+.flex-between{
+    justify-content: space-between;
+}
+#header-logo{
+    width: 200px;
+    margin: 20px;
+}
+#header-contact-section{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+#about-us-section{
+    background-color: #023e7a;
+    color: white;
+    padding-bottom: 120px;
+    padding-top: 70px;
+   font-size: 30px;
+
+}
+#testimonial-section{
+    background-color: #003366;
+    display: flex;
+    justify-content: space-between;
+    gap: 9rem;    
+}
+.testi-border{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 8px;
+   padding: 50px 30px 100px 20px;
+    margin-top: 30px;
+}
+.testi-img{
+    padding-top: 50px;
+    padding-right: 30px;
+    color:white;
+}
+.partner-logo{
+    mix-blend-mode: multiply;
+}
+.frameworks{
+    mix-blend-mode: multiply;   
+}
+#general{
+    background-color: #003366;
+}
+.general-border{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 100px;  
+}
+#subcontent{
+    display: flex;
+    border: 1px solid rgb(160, 160, 160);
+}
+.common-border{
+    border: 1px solid rgb(206, 204, 204);
+}
+.common-border p{
+    padding-left: 20px;
+    padding-bottom:30px ;
+}
+.segment{
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#booking{
+    background-color: #ffffff;
+    max-height: 500;
+}
+.inputform{
+    border: 1px solid lightgray;
+    padding: 40px 70px 20px 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.inputsize{
+  margin: 15px;
+  width: 100%;
+  padding-top: 10px;
+  
+}
+button{
+    padding: 12px;
+    background-color: #023e7a;
+    color: white;
+}
+.resize{
+    font-size: small;
+    text-align: center;
+}
+.booking-border{
+    background-color: #023e7a;
+    border: 1px solid white;
+    border-radius: 13px;
+    display: flex;
+    gap: 25rem;
+    margin-bottom: 35px;
+}
+.content-access{
+    color: white;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+
+footer{
+    background-color: #003366;
+}
+#footer-final {
+   
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-around;
+    padding: 30px 15px;
+    color: white;   
+}
+.footer-head ul {    list-style-type:none;
+   color: yellow;
+   display: flex;
+    padding-top: 30px;
+    padding-right: 80px;
+    justify-content: space-around;
+   
+
+}
+.head-content ul{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    list-style-type: none;
+    border-right: 1px solid white;
+   
+}
